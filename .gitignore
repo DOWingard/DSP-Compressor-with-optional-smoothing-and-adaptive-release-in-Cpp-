@@ -1,0 +1,70 @@
+# CMake build folders
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Visual Studio / MSVC files
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.cache
+*.ncb
+*.pdb
+*.ipch
+*.tlog
+*.obj
+*.idb
+*.ilk
+*.log
+*.aps
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.out
+
+# Other build artifacts
+*.o
+*.lo
+*.mod
+*.cmd
+*.d
+*.dSYM/
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Backup / temp files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Conan / vcpkg / package managers
+conanbuild/
+conanfile.lock
+build*/             # Covers build-debug/, build-release/, etc.
+.vcpkg/
+
+# CTest output
+Testing/
+DartConfiguration.tcl
+LastTest.log
